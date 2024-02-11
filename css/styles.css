@@ -1,0 +1,98 @@
+body{
+font-family: Roboto;
+}
+.form-adress{
+    
+    border-bottom: 1px solid #E7E9FC;
+    
+    font-size: 16px;
+
+}
+.button{
+    background: rgba(77, 90, 229, 1);
+    color: white;
+    
+}
+.meniu{
+    
+    color:#2e2f42;
+    background-color: #fafafa;
+    font-style: normal;
+}
+.meniu-studio {
+    color: black;
+   
+}
+meniu-portfolio{
+    color: black;
+    
+}
+
+.main-information{
+     background: rgba(46, 47, 66, 1);
+     width: 1440px;
+     height: 600px;
+     top: 72px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 1);
+    margin: auto;
+     
+}
+.facts-firm{
+width: 1128px;
+height: 104px;
+top: 792px; 
+left: 156px;
+}
+.facts{
+     width: 264px;
+     height: 104px;
+     top: 792px;
+     left: 156px;
+     gap: 8px;
+     font-family: 'Roboto', sans-serif;
+     color: #231F1F;
+    }
+
+.our-team-facts{
+    background: rgba(244, 244, 253, 1);
+
+}
+
+
+.logo-main{
+    color: white;
+}
+
+
+
+.information-footer{
+    
+    width: 1440px;
+    height: 312px;
+    top: 2988px;
+    background: rgba(46, 47, 66, 1);
+    margin: auto;
+}
+.text-footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: rgba(244, 244, 253, 1);
+   
+    
+}
+.logo-footer{
+    font-family: Raleway;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+.logo-header{
+    font-family: 'releway', sans-serif;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
