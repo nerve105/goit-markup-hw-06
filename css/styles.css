@@ -5,7 +5,7 @@ color: #434455;
 background-color:#FFFFFF;
 }
 .logo-header{
-    font-family:"Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -54,9 +54,14 @@ background-color: #404BBF;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.meniu .meniu-link:hover,
-.memiu .meniu-link:focus {
+.meniu-link{
+    color: #2e2f42;
+}
+.meniu .meniu-link:hover{
 color: #404bbf;
+}
+.memiu .meniu-link:focus{
+    color: #404bbf;
 }
 
 .meniu-portfolio{
