@@ -14,7 +14,7 @@ background-color:#FFFFFF;
     color: #4d5ae5;
 }
 .span-header{
-   color: #2e2f42;
+    color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -43,7 +43,7 @@ background-color:#FFFFFF;
     color:#404bbf ;
 }
 .button:focus{
-    color: #404bbf;
+    color:#404bbf;
 }
 .meniu-studio{
     font-weight: 500;
@@ -54,28 +54,22 @@ background-color:#FFFFFF;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.meniu-studio:hover{
+.meniu .meniu-link:hover,
+.memiu .meniu-link:focus {
 color: #404bbf;
 }
-.meniu-studio:focus{
-    color: #404bbf;
-}
+
 .meniu-portfolio{
-font-weight: 500;
-    color: #2e2f42;
+    font-weight: 500;
+    color:#2e2f42;
     background-color: #fafafa;
     font-style: normal;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.meniu-portfolio:hover {
-    color: #404bbf;
-}
 
-.meniu-portfolio:focus {
-    color: #404bbf;
-}
+
 .meniu-contacts{
     font-weight: 500;
     color: #2e2f42;
@@ -85,29 +79,36 @@ font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.meniu-contacts:hover {
-    color: #404bbf;
-}
 
-.meniu-contacts:focus {
-    color: #404bbf;
-}
 .form-adress{
     font-style: normal;
 }
-.mail .tel{
+.tel{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail .tel:hover{
+.tel:hover{
     color: #404bbf;
 }
-.mail .tel:focus{
+ .tel:focus{
 color: #404bbf;
 }
+.mail{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
+.mail:hover {
+    color: #404bbf;
+}
+
+.mail:focus {
+    color: #404bbf;
+}
 .title-one{
     font-family: 'Roboto', sans-serif;
     color:rgba(255, 255, 255, 1);
@@ -130,10 +131,9 @@ color: #404bbf;
 }
 
 .text-footer{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    line-height: 1.5;
+line-height: 1.5;
+color: #f4f4fd;
+letter-spacing: 0.02em
    }
 .logo-footer{
     font-family: 'Raleway',cursive;
@@ -157,50 +157,12 @@ color: #404bbf;
 .logo-main{
     color: white;
 }
-.punctuality{
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.punctuality-p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.diligence{
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.diligence-p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.technologies{
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em; 
-}
-.technologies-p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .information-footer{
     background: rgba(46, 47, 66, 1);
 }
 .logo-footer{
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -210,7 +172,7 @@ color: #404bbf;
 }
 
 .span-footer{
-    color: white;
+    color:#f4f4fd;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
