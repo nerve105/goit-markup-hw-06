@@ -99,8 +99,8 @@ color: #404bbf;
     color: #404bbf;
 }
 
-.contacts:focus {
-    color: #404bbf;
+.contacts:focus{
+    color: #404BBF;
 }
 .title-one{
     font-family: 'Roboto', sans-serif;
