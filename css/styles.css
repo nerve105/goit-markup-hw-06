@@ -5,7 +5,7 @@ color: #434455;
 background-color:#FFFFFF;
 }
 .logo-header{
-    font-family:'Raleway', sans-serif;
+    font-family:"Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -40,10 +40,10 @@ background-color:#FFFFFF;
     cursor: pointer;
 }
 .button:hover{
-    color:#404bbf ;
+background-color: #404BBF ;
 }
 .button:focus{
-    color:#404bbf;
+background-color: #404BBF;
 }
 .meniu-studio{
     font-weight: 500;
@@ -83,30 +83,18 @@ color: #404bbf;
 .form-adress{
     font-style: normal;
 }
-.tel{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.tel:hover{
-    color: #404bbf;
-}
- .tel:focus{
-color: #404bbf;
-}
-.mail{
+.contacts{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.mail:hover {
+.contacts:hover {
     color: #404bbf;
 }
 
-.mail:focus {
+.contacts:focus {
     color: #404bbf;
 }
 .title-one{
@@ -119,7 +107,7 @@ color: #404bbf;
 
 }
 .our-team-facts{
-    background: rgba(244, 244, 253, 1);
+    background-color: #F4F4FD;
 }
 .strategy{
     color: #2e2f42;
@@ -179,4 +167,48 @@ letter-spacing: 0.02em
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-
+.team{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+.our-team{
+background-color: #FFFFFF;
+}
+.our-team-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-team-p{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455 ;
+}
+.our-portfolio-h{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:#2e2f42;
+}
+.our-portfolio-titel{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-portfolio-p{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
