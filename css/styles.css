@@ -22,7 +22,7 @@ background-color:#FFFFFF;
     letter-spacing: 0.03em;
 }
 .form-adress{
-    border-bottom: 1px solid #E7E9FC;
+  
     font-size: 16px;
 
 }
@@ -128,18 +128,8 @@ line-height: 1.5;
 color: #f4f4fd;
 letter-spacing: 0.02em
    }
-.logo-footer{
-    font-family: 'Raleway',cursive;
-    text-align: left;
-    text-transform: uppercase;
-    color: #4d5ae5;
 
-}
-.logo-header{
-    font-family: 'releway', sans-serif;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
+
 .strategy-p{
     font-size: 16px;
     line-height: 1.5;
