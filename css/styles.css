@@ -175,9 +175,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.our-team{
-background-color: #FFFFFF;
-}
+
 .our-team-h{
     font-weight: 500;
     font-size: 20px;
@@ -211,4 +209,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.our-team-facts{
+background-color: #F4F4FD;
+}
+.our-team{
+background-color: #FFFFFF;
 }
