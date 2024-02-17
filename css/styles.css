@@ -4,6 +4,19 @@ font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color:#FFFFFF;
 }
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.container-header{
+display: flex;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+}
+.navigacja-header{
+display: flex;
+align-items: center;
+}
 .logo-header{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -12,6 +25,7 @@ background-color:#FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .span-header{
     color: #2e2f42;
@@ -22,13 +36,20 @@ background-color:#FFFFFF;
     letter-spacing: 0.03em;
 }
 .form-adress{
-  
+    display: flex;
     font-size: 16px;
+    
 
+}
+.meniu{
+    display: flex;
+    gap: 40px;
 }
 .main-information {
     background: rgba(46, 47, 66, 1);
+    padding: 188px 0;
 }
+
 .button{
     background: rgba(77, 90, 229, 1);
     color: white;
@@ -37,6 +58,13 @@ background-color:#FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
+    border-radius: 4px;
     cursor: pointer;
 }
 .button:hover{
@@ -53,6 +81,7 @@ background-color: #404BBF;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .meniu-link{
     color: #2e2f42;
@@ -72,8 +101,8 @@ color: #404bbf;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
-
 
 .meniu-contacts{
     font-weight: 500;
@@ -83,16 +112,20 @@ color: #404bbf;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .form-adress{
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 .contacts{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 .contacts:hover {
@@ -109,10 +142,16 @@ color: #404bbf;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
 
 }
 .our-team-facts{
     background-color: #F4F4FD;
+
+}
+.team-name{
+display: flex;
+gap: 24px;
 }
 .strategy{
     color: #2e2f42;
@@ -120,13 +159,17 @@ color: #404bbf;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
 }
-
+.information{
+padding: 120px 0;
+}
 .text-footer{
 line-height: 1.5;
 color: #f4f4fd;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
+max-width: 264px;
    }
 
 
@@ -138,11 +181,20 @@ letter-spacing: 0.02em
 
 }
 .logo-main{
-    color: white;
-}
+    visibility: hidden;
 
+}
+.advantages{
+    display: flex;
+    gap: 24px;
+}
+.advantages-one{
+    width:calc((100% - 72px) / 4);
+
+}
 .information-footer{
     background: rgba(46, 47, 66, 1);
+    padding: 100px 0 100px;
 }
 .logo-footer{
     font-family: "Raleway", sans-serif;
@@ -152,6 +204,8 @@ letter-spacing: 0.02em
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .span-footer{
@@ -169,6 +223,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
+margin-bottom: 72px;
 }
 
 .our-team-h{
@@ -177,12 +232,15 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .our-team-p{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455 ;
+text-align: center;
 }
 .our-portfolio-h{
 font-size: 36px;
@@ -191,6 +249,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color:#2e2f42;
+margin-bottom: 72px;
 }
 .our-portfolio-titel{
     font-weight: 500;
@@ -207,7 +266,32 @@ color: #434455;
 }
 .our-team-facts{
 background-color: #F4F4FD;
+padding: 120px 0;
 }
 .our-team{
 background-color: #FFFFFF;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+.name{
+padding: 32px 0;
+}
+.our-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.exampels{
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+.exampels-one{
+width: calc((100% - 48px) / 3);
+}
+.container-examples{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
 }
