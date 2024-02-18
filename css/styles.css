@@ -38,8 +38,6 @@ align-items: center;
 .form-adress{
     display: flex;
     font-size: 16px;
-    
-
 }
 .meniu{
     display: flex;
@@ -85,6 +83,7 @@ background-color: #404BBF;
 }
 .meniu-link{
     color: #2e2f42;
+    padding: 24px 0;
 }
 .meniu .meniu-link:hover{
 color: #404bbf;
@@ -158,9 +157,17 @@ max-width: 264px;
     color: #434455;
 
 }
-.logo-main{
-color: #FFFFFF;
-
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 .advantages{
     display: flex;
@@ -264,7 +271,7 @@ flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
 }
-.exampels-one{
+.one{
 width: calc((100% - 48px) / 3);
 }
 .container-examples{
