@@ -81,7 +81,7 @@ background-color: #404BBF;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 .meniu-link{
     color: #2e2f42;
@@ -91,28 +91,6 @@ color: #404bbf;
 }
 .meniu .meniu-link:focus{
     color: #404bbf;
-}
-
-.meniu-portfolio{
-    font-weight: 500;
-    color:#2e2f42;
-    background-color: #fafafa;
-    font-style: normal;
-    line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-}
-
-.meniu-contacts{
-    font-weight: 500;
-    color: #2e2f42;
-    background-color: #fafafa;
-    font-style: normal;
-    line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .form-adress{
@@ -125,7 +103,7 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+   
 }
 
 .contacts:hover {
@@ -181,7 +159,7 @@ max-width: 264px;
 
 }
 .logo-main{
-    visibility: hidden;
+color: #FFFFFF;
 
 }
 .advantages{
