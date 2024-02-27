@@ -11,6 +11,7 @@ background-color:#FFFFFF;
   width: 1158px;
 margin: 0 auto;
 padding: 0 15px;  
+margin-right: 120px;
 }
 .container-header{
 display: flex;
@@ -193,6 +194,8 @@ overflow: hidden;
 .information-footer{
     background: rgba(46, 47, 66, 1);
     padding: 100px 0 100px;
+    display: flex;
+    align-items: baseline;
 }
 .logo-footer{
     font-family: "Raleway", sans-serif;
