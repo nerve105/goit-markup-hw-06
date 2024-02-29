@@ -425,7 +425,7 @@ button {
     height: 40px;
 }
  .list-social-media{
-display: flex;
+ display: flex;
   gap: 16px;
  }
  
@@ -446,4 +446,3 @@ display: flex;
   .icon{
     fill: #f4f4fd;
   }
-  
