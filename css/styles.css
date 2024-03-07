@@ -691,7 +691,7 @@ margin-bottom: 24px;
     top: -2px;
     left: 0px;
 }
-.modal-checkbox-input:checked+.lable-checkbox>.modal-checkbox-icon {
+.visually-hidden:checked+.lable-checkbox>.modal-checkbox-icon {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
