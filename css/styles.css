@@ -589,6 +589,7 @@ margin-bottom: 16px;
 .icon-close{
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .modal-close-button:hover .icon-close,
 .modal-close-button:focus .icon-close{
@@ -668,7 +669,7 @@ margin-bottom: 16px;
 margin-bottom: 24px;
 }
 .label-checkbox{
-    
+    position: relative;
     padding-left: 24px;
     font-size: 12px;
     line-height: 1.17;
@@ -676,22 +677,23 @@ margin-bottom: 24px;
     color: #8e8f99;
 }
 .modal-checkbox-icon{
-    width: 16px;
-    height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     width: 16px;
+     height: 16px;
+     border: 1px solid rgba(46, 47, 66, 0.4);
+     border-radius: 2px;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border 250ms cubic-bezier(0.4, 0, 0.2, 1),
             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    fill: transparent;
-   
-}
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     fill: transparent;
+     cursor: pointer;
+    
 
-.modal-checkbox-input:checked~.lable-checkbox .modal-checkbox-icon {
-    background-color: #404bbf;
+}
+.modal-checkbox-input:checked+.label-checkbox>.modal-checkbox-icon{
+    background-color: #404BBF;
     border: none;
     fill: #f4f4fd;
 }
