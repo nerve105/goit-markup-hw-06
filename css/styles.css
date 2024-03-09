@@ -690,7 +690,7 @@ margin-bottom: 24px;
    
 }
 
-.modal-checkbox-input:checked+.lable-checkbox .modal-checkbox-icon {
+.modal-checkbox-input:checked+.lable-checkbox >.modal-checkbox-icon {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
