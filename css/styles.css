@@ -687,9 +687,7 @@ margin-bottom: 24px;
     justify-content: center;
     align-items: center;
     fill: transparent;
-    position: absolute;
-    top: -2px;
-    left: 0px;
+   
 }
 
 .modal-checkbox-input:checked+.lable-checkbox .modal-checkbox-icon {
