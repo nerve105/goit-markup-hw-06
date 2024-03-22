@@ -16,6 +16,7 @@
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
+  
 </head>
 
 <body>
@@ -45,6 +46,10 @@
         </ul>
       </address>
     </div>
+
+
+  
+
   </header>
   
   <main>
@@ -294,7 +299,7 @@
 
           <li class="portfolio-list">
             <div class="images-portfolio">
-            <img src="./images/img-5.jpg" alt="foto5" width="360">
+            <img class="portfolio-img" src="./images/img-5.jpg" alt="foto5" width="360">
             <p class="images-portfolio-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
             Cloud Storage App </p>
             </div>
@@ -306,7 +311,7 @@
 
           <li class="portfolio-list">
             <div class="images-portfolio">
-            <img src="./images/img-6.jpg" alt="foto6" width="360">
+            <img class="portfolio-img" src="./images/img-6.jpg" alt="foto6" width="360">
             <p class="images-portfolio-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
               App ·
               Cloud Storage App </p>
@@ -319,7 +324,7 @@
 
           <li class="portfolio-list">
             <div class="images-portfolio">
-            <img src="./images/img-7.jpg" alt="foto7" width="360">
+            <img class="portfolio-img" src="./images/img-7.jpg" alt="foto7" width="360">
             <p class="images-portfolio-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
               App ·
               Cloud Storage App </p>
@@ -332,7 +337,7 @@
 
           <li class="portfolio-list">
             <div class="images-portfolio">
-            <img src="./images/img-8.jpg" alt="foto8" width="360">
+            <img class="portfolio-img" src="./images/img-8.jpg" alt="foto8" width="360">
             <p class="images-portfolio-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
               App ·
               Cloud Storage App </p>
@@ -345,7 +350,7 @@
 
           <li class="portfolio-list">
             <div class="images-portfolio">
-            <img src="./images/img-9.jpg" alt="foto9" width="360">
+            <img class="portfolio-img" src="./images/img-9.jpg" alt="foto9" width="360">
             <p class="images-portfolio-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
               App ·
               Cloud Storage App </p>
@@ -358,7 +363,7 @@
 
           <li class="portfolio-list">
             <div class="images-portfolio">
-            <img src="./images/img-10.jpg" alt="foto10" width="360">
+            <img class="portfolio-img" src="./images/img-10.jpg" alt="foto10" width="360">
             <p class="images-portfolio-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
               App ·
               Cloud Storage App </p>
@@ -516,63 +521,67 @@
     </div>
   
     <div class="mobile-box-menu">
-      <ul class="mobile-list">
-        <li class="mobile-nav">
-          <a href="./index.html" class="mobile-nav-link mobile-nav-studio">Studio</a>
-        </li>
-        <li class="mobile-nav-link">
-          <a href="" class="mobile-nav-link">Portfolio</a>
-        </li>
-        <li class="mobile-nav-link">
-          <a href="" class="mobile-link">Contacts</a>
-        </li>
-      </ul>
-
-      <ul class="mobile-address-list">
-         <li class="mobile-address-item">
-           <a href="tel:+110001111111" class="address-menu-link">+11 (000) 111-11-11</a>
-        </li>
-        <li class="mobile-address-item">
-          <a href="mailto:info@devstudio.com" class="address-menu-link">info@devstudio.com</a>
-        </li>
-      </ul>
-
-      <ul class="mobile-social-icon">
-        <li class="mobile-icon-item">
-         <a class="mobile-icon-link" href="#">
-          <svg class="mobile-app" width="24" height="24">
-            <use href="./images/icons.svg#icon-instagram"></use>
-          </svg>
-         </a>
-        </li>
-
-        <li class="mobile-icon-item">
-          <a class="mobile-icon-link" href="#">
-           <svg class="mobile-app" width="24" height="24">
-            <use href="./images/icons.svg#icon-twitter"></use>
-           </svg>
-           </a>
-         </li>
-
-         <li class="mobile-icon-item">
-           <a class="mobile-icon-link" href="#">
-            <svg class="mobile-app" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook"></use>
-             </svg>
-           </a>
-         </li>
-
-        <li class="mobile-icon-item">
-          <a class="mobile-icon-link" href="#">
-           <svg class="mobile-app" width="24" height="24">
-            <use href="./images/icons.svg#icon-linkedin"></use>
-           </svg>
-          </a>
-         </li>
-       </ul>
+      <nav class="mobile-navigation">
+        <ul class="mobile-list">
+          <li class="mobile-nav">
+            <a href="./index.html" class="mobile-nav-link mobile-nav-studio">Studio</a>
+          </li>
+          <li class="mobile-nav-link">
+            <a href="" class="mobile-nav-link">Portfolio</a>
+          </li>
+          <li class="mobile-nav-link">
+            <a href="" class="mobile-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <div class="mob-cont">
+        <address class="mobile-address">
+          <ul class="mobile-address-list">
+            <li class="mobile-address-item">
+              <a href="tel:+110001111111" class="address-menu-link">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-address-item">
+              <a href="mailto:info@devstudio.com" class="address-menu-link">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+  
+        <ul class="mobile-social-icon">
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-app" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+  
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-app" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+  
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-app" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+  
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-app" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin2"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
-      </div>
-      
+    </div>
 </body>
 
 </html>
