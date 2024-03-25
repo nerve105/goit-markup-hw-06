@@ -24,6 +24,10 @@ ol {
     padding: 0;
     margin: 0;
 }
+.img {
+    display: block;
+    max-width: 100%;
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -71,6 +75,9 @@ ol {
 }
 .meniu{
 display: none;
+}
+.adres-contacts{
+    display: none;
 }
 @media screen and (min-width: 768px) {
     .container {
@@ -183,9 +190,10 @@ display: none;
     line-height: 1.5;
      }
  }
+
  /* mobile versia */
  .mobile-menu-container {
-     visibility: hidden;
+    
      width: 100%;
      height: 100%;
      position: fixed;
@@ -246,13 +254,9 @@ display: none;
      color: #404bbf;
  }
  .mobile-navigation {
-     padding-top: 72px;
-     padding-bottom: 168px;
+     margin-bottom: auto;
  }
 
- .mob-cont {
-     padding-top: 25px;
- }
 
  .mobile-address {
      margin-bottom: 48px;
@@ -313,7 +317,7 @@ display: none;
 
  .main-information{
      background-color: #2e2f42;
-     padding: 72px 52px;
+     padding: 72px 0;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
              rgba(46, 47, 66, 0.7)),
          url(../images/people.jpg);
@@ -329,7 +333,7 @@ display: none;
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
          rgba(46, 47, 66, 0.7)),
-        url(../images/people.jpg);
+        url(../images/images2x/Dark-bgfont1x-min.jpg);
     max-width: 768px;
      }
   .mobile-menu {
@@ -359,7 +363,7 @@ display: none;
 .main-information {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                  rgba(46, 47, 66, 0.7)),
-             url(../images/people.jpg);
+             url(../images/images2x/Dark-bgfon2x-min.jpg)
      }
     .mobile-menu {
         position: fixed;
@@ -380,7 +384,7 @@ display: none;
          }
     .container-header{
     height: 24px;
-    width: 288px;
+   
     }
  }
  
@@ -389,14 +393,14 @@ display: none;
 .section-first {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                  rgba(46, 47, 66, 0.7)),
-             url(../images/people.jpg);
+             url(../images/images2x/Dark-bgfont2x-min.jpg);
      }
  }
 @media screen and (min-resolution: 192dpi) and (min-width: 1158px) {
     .section-first {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people.jpg);
+            url(../images/images2x/people-officefond2x-min.jpg);
     }
 }
 
@@ -410,6 +414,7 @@ display: none;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 208px;
     margin: 0 auto;
     margin-bottom: 72px;
 }
@@ -421,8 +426,8 @@ display: none;
 
     .title-one {
         font-size: 56px;
-        width: 496px;
-        height: 120px;
+        max-width: 496px;
+        
         line-height: 1.07;
         margin-bottom: 36px;
     }
@@ -616,7 +621,14 @@ display: none;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+.our-portfolio-titel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
 .our-team-p{
     color: #434455;
     font-family: Roboto;
@@ -626,6 +638,10 @@ display: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.our-team-facts {
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-logo {
     display: flex;
@@ -698,7 +714,20 @@ display: none;
     color: #2e2f42;
     text-transform: capitalize;
 }
+.our-portfolio-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
+ .portfolio-list:hover .images-portfolio-p {
+     transform: translateY(0%);
+ }
+
+ .portfolio-list:hover .images-portfolio-p {
+     transform: translateY(0%);
+ }
 .exampels {
     display: flex;
     flex-direction: column;
@@ -721,18 +750,15 @@ display: none;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.img {
-    display: block;
-}
+
 
 .container-examples {
-    padding: 32px 16px;
+ 
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-    transform: translateY(0%);
-    display: flex;
-    gap: 8px;
+    
+   
 }
 
 .our-portfolio-titel {
@@ -784,6 +810,8 @@ display: none;
 .images-portfolio:hover .images-portfolio-p {
     transform: translateY(0);
 }
+
+
 @media screen and (min-width: 768px) {
     .exampels {
         display: flex;
@@ -999,10 +1027,7 @@ display: none;
     margin-left: 16px;
 }
 @media screen and (min-width: 768px) {
-    .information-footer{
-        padding-left: 92px;
-        padding-right: 92px;
-    }
+    
 
     .footer-container {
         max-width: 584px;
