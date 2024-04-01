@@ -333,7 +333,7 @@ display: none;
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
          rgba(46, 47, 66, 0.7)),
-        url(../images/images2x/Dark-bgfont1x-min.jpg);
+        url(../images/images2x/people-officefond2x-min.jpg);
     max-width: 768px;
      }
   .mobile-menu {
@@ -355,7 +355,7 @@ display: none;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                  rgba(46, 47, 66, 0.7)),
-             url(../images/people.jpg);
+             url(../images/images2x/people-officefond2x-min.jpg);
     max-width: 1440px;
      }
  }
