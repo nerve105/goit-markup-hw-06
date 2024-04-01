@@ -641,7 +641,7 @@ display: none;
 }
 .our-team-facts {
     background-color: #F4F4FD;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 .team-logo {
     display: flex;
@@ -742,7 +742,7 @@ display: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    box-sizing: border-box;
+    width: 288px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -971,7 +971,7 @@ display: none;
 }
 
 .email-input {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
     border-radius: 4px;
